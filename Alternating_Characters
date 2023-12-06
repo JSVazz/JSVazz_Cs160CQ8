@@ -1,0 +1,14 @@
+public static int alternatingCharacters(String s, int del) {
+    // Write your code here
+        if (s.length() <= 1) {
+                return del;
+            }
+
+        
+        if (s.charAt(0) == s.charAt(1)) {         
+            return alternatingCharacters(s.substring(1), del + 1);
+        }
+
+        
+        return alternatingCharacters(s.substring(1), del);
+    }
