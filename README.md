@@ -1,6 +1,9 @@
-Staircase Time Complexity:
+Staircase Time Complexity: The time complexity of this code is O(n^2), where 'n' is the input or size of our staircase. 
+The outer loop runs 'n' times, and for each iteration of the outer loop, the inner loops run a total of 'n' 
+times. As a result, the overall time complexity is proportional to n * n, which simplifies to O(n^2).
 
-Staircase Space Complexity:
+Staircase Space Complexity: The space complexity of this code is O(1) or constant. The code does not make any extra calls that would impact 
+the input. It is only used to determine the size of the stircase. Therefore, the space complexity is considered constant, O(1).
 
 Alternating Characters Time Complexity: The time complexity is O(n) because the function processes each 
 character in the string once, resulting in a number of operations linearly proportional to the length of the input string.
